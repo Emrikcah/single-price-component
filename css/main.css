@@ -71,8 +71,8 @@ h2 {
   font-size: 2.2rem;
   font-weight: 100;
   letter-spacing: -1px;
-  margin-top: 2rem;
-  margin-bottom: 1.3rem;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
 }
 
 .join__subtitle {
@@ -153,6 +153,18 @@ button {
     grid-column: 1/3;
     grid-row: 1/2;
     min-height: 213px;
+  }
+
+  .join__title{
+    font-size: 3rem;
+  }
+
+  .join__subtitle{
+    font-size: 2rem;
+  }
+
+  .join__para{
+    font-size: 1.55rem;
   }
 
   .monthly,.why{
