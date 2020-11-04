@@ -12,43 +12,80 @@
   
   <title>Frontend Mentor | Single Price Grid Component</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+  
 </head>
 <body>
-  Join our community
-
-  30-day, hassle-free money back guarantee
-
-  Gain access to our full library of tutorials along with expert code reviews. 
-  Perfect for any developers who are serious about honing their skills.
-
-  Monthly Subscription
-
-  &dollar;29 per month
-
-  Full access for less than &dollar;1 a day
-
-  Sign Up
-
-  Why Us
-
-  Tutorials by industry experts
-  Peer &amp; expert code review
-  Coding exercises
-  Access to our GitHub repos
-  Community forum
-  Flashcard decks
-  New videos every week
+  <div class="container">
+    <section class="join">
+      <h1 class="join__title">
+        Join our community
+      </h1>
+    
+      <div class="join__text">
+        <h2 class="join__subtitle">
+          30-day, hassle-free money back guarantee
+        </h2>
+      
+        <div class="join__para">
+          Gain access to our full library of tutorials along with expert code reviews. 
+          Perfect for any developers who are serious about honing their skills.
+        </div>
+      </div>
+    </section>
   
-  <footer>
-    <p class="attribution">
-      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-      Coded by <a href="#">Your Name Here</a>.
-    </p>
-  </footer>
+    <section class="monthly">
+      <div class="monthly__inner">
+        <h2 class="monthly__title">
+          Monthly Subscription
+        </h2>
+      
+        <div class="monthly__text">
+          <div class="price">
+            &dollar;29<span class="per-month">per month</span>
+          </div>
+        
+          <p class="monthly__text-inner">
+            Full access for less than &dollar;1 a day
+          </p>
+        
+          <button>Sign Up</button>
+      </div>
+      </div>
+    </section>
+  
+    <section class="why">
+      <h2 class="why__title">
+      	Why Us
+      </h2>
+    
+      <div class="why__para">
+      	<ul class="why__list">
+          <li>
+            Tutorials by industry experts
+          </li>
+          	<li>
+              Peer &amp; expert code review
+            </li>
+          	<li>
+              Coding exercises
+            </li>
+          	<li>
+              Access to our GitHub repos
+            </li>
+          	<li>
+              Community forum
+            </li>
+          	<li>
+              Flashcard decks
+            </li>
+          	<li>
+              New videos every week
+            </li>
+        </ul>
+      </div>
+    </section>
+  </div>
+  
+  
 </body>
 </html>
